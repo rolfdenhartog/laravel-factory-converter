@@ -19,11 +19,18 @@ composer global require rdh/laravel-factory-converter:dev-master
 
 **!! Your code will be PSR-2 formatted**
 
-Make sure that `~/.composer/vendor/bin` is in your `$PATH`. Run the following commands for your project:
+Make sure that your global composer bin directory is in your `$PATH`.
+Find out where it is with:
+
+```
+composer global config bin-dir --absolute
+```
+
+Run the following commands for your project:
 
 ```
 cd your-project
-laravel-factories-converter
+laravel-factory-converter
 ```
 
 ## Options
